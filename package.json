@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-trial",
+  "version": "1.0.0",
+  "description": "My first nuxt app trial/test.",
+  "author": "Max Frederiksen",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
