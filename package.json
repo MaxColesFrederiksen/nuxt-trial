@@ -13,7 +13,8 @@
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "storyblok-nuxt": "0.0.9"
   },
   "devDependencies": {
     "cross-env": "^5.0.1"
